@@ -85,7 +85,7 @@ $("#clear5").click(function(){
     localStorage.setItem(hour, JSON.stringify(text));
 });
 
-// 
+
 // function savetext(){
 //     let saveEventText = 
 // };
