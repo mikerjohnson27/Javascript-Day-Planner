@@ -2,6 +2,17 @@
 let m = moment();
 
 $("#today").text(moment().format('llll'))
+let hour = $(this).siblings(".hour1").text();
+
+function loadStorage(){
+    if(localStorage.getItem((hour) !== null)){
+        console.log("local storage is not available.")
+    }else{
+        const storage = localStorage.getItem('7 AM', '9 AM', '11 AM', '1 PM', '3 PM', '5 PM')
+        document.querySelector('#am7', 'am9', '#am11', '#1pm', '#3pm', '#5pm').textContent = JSON.parse(storage)
+    }
+}
+loadStorage();
 
 
 $("#save").click(function(){
@@ -88,6 +99,6 @@ $("#clear5").click(function(){
 $("#view").click(function(){
     text = $("#am7").val("");
     text = $("#am7").val();
-    hour = $(this).siblings(".hour").text();
-    localStorage.getItem(hour, JSON.stringify(text)); 
+    hour = $(this).siblings("7 AM").text();
+
 });
