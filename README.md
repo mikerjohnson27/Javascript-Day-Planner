@@ -34,6 +34,10 @@ Basic static HTML page using JavaScript, Jquery and HTML. For a day planner.
 <p align="center">
     <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
 </p>
+<p align="center">
+    <img src="../Javascript-Day-Planner/imgs/Screenshot.png">
+</p>
+<h3</h3>
 
 ## Links:
 Repo: https://github.com/mikerjohnson27/Javascript-Day-Planner
